@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfólio institucional da JP NOVO BRILHO com projetos em Engenharia e Indústria, AVAC, Manutenção Técnica e Segurança Electrónica.">
+    <title>Portfólio - JP NOVO BRILHO</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/pages.css">
+    <link rel="stylesheet" href="css/portfolio.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+        <!-- Header / Navigation -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="container">
+                <div class="nav-wrapper">
+                    <div class="logo">
+                        <h1>JP <span>NOVO BRILHO</span></h1>
+                        <p class="tagline">Soluções Integradas em Angola</p>
+                    </div>
+                    <button class="mobile-menu-toggle" aria-label="Menu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                    <ul class="nav-menu">
+                        <li><a href="index.html" class="active">Início</a></li>
+                        <li class="dropdown">
+                            <a href="#servicos">Serviços <i class="fas fa-chevron-down"></i></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="engenharia-industria.html">Engenharia e Indústria</a></li>
+                                <li><a href="avac.html">AVAC</a></li>
+                                <li><a href="seguranca.html">Segurança Electrónica</a></li>
+                                <li><a href="manutencao.html">Manutenção & Reparação</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="portfolio.html">Portfólio</a></li>
+                        <li><a href="contacto.html">Contacto</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section class="page-hero portfolio-hero" style="background-image: linear-gradient(rgba(0,0,0,0.66), rgba(0,0,0,0.48)), url('images/slider2.jpg')">
+        <div class="container">
+            <div class="page-hero-content">
+                <span class="portfolio-kicker">Projetos em destaque</span>
+                <h1>Portfólio JP NOVO BRILHO</h1>
+                <p>Conheça trabalhos desenvolvidos nas áreas de Engenharia e Indústria, AVAC, Manutenção Técnica e Segurança Electrónica.</p>
+                <div class="breadcrumb">
+                    <a href="index.html">Início</a>
+                    <span>/</span>
+                    <span>Portfólio</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="portfolio-intro">
+        <div class="container">
+            <div class="portfolio-intro-grid">
+                <div class="portfolio-copy">
+                    <div class="section-header section-header-left">
+                        <h2>Projetos pensados para gerar confiança, desempenho e continuidade operacional</h2>
+                        <p>Esta página foi estruturada para apresentar a capacidade técnica e operacional da JP NOVO BRILHO de forma clara, moderna e institucional.</p>
+                    </div>
+                    <p>A nossa atuação combina planeamento técnico, execução rigorosa e soluções ajustadas à realidade de cada cliente. Em cada intervenção, o foco está em entregar segurança operacional, eficiência dos equipamentos, organização da infraestrutura e melhor desempenho dos sistemas instalados.</p>
+                    <div class="intro-highlights">
+                        <div class="intro-highlight">
+                            <strong>4 áreas</strong>
+                            <span>de especialidade integradas</span>
+                        </div>
+                        <div class="intro-highlight">
+                            <strong>Galeria interativa</strong>
+                            <span>com zoom e navegação por slides</span>
+                        </div>
+                        <div class="intro-highlight">
+                            <strong>Layout responsivo</strong>
+                            <span>adaptado a telemóvel e computador</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-summary-card">
+                    <h3>O que encontra nesta página</h3>
+                    <ul>
+                        <li><i class="fas fa-check-circle"></i> Projetos organizados por categoria de serviço</li>
+                        <li><i class="fas fa-check-circle"></i> Cards com imagem, descrição e contexto do trabalho</li>
+                        <li><i class="fas fa-check-circle"></i> Filtros rápidos para navegar por especialidade</li>
+                        <li><i class="fas fa-check-circle"></i> Lightbox com navegação anterior e seguinte</li>
+                    </ul>
+                    <a href="#galeria" class="btn btn-primary">Explorar portfólio</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="portfolio-filters-section" id="galeria">
+        <div class="container">
+            <div class="section-header">
+                <h2>Galeria de projetos</h2>
+                <p>Selecione uma categoria e visualize os trabalhos com mais detalhe.</p>
+            </div>
+
+            <div class="portfolio-filters" role="tablist" aria-label="Filtrar projetos por categoria">
+                <button class="filter-btn active" data-filter="all" type="button">Todos</button>
+                <button class="filter-btn" data-filter="engenharia-industria" type="button">Engenharia e Indústria</button>
+                <button class="filter-btn" data-filter="avac" type="button">AVAC</button>
+                <button class="filter-btn" data-filter="manutencao-tecnica" type="button">Manutenção Técnica</button>
+                <button class="filter-btn" data-filter="seguranca-electronica" type="button">Segurança Electrónica</button>
+            </div>
+
+            <div class="portfolio-grid">
+                <article class="project-card" data-category="engenharia-industria">
+                    <button class="project-media js-open-lightbox" type="button" aria-label="Abrir projeto Instalação de Sistema Industrial em galeria">
+                        <img src="images/engenharia1.jpg" alt="Instalação de sistemas industriais em ambiente fabril">
+                        <span class="project-zoom"><i class="fas fa-search-plus"></i></span>
+                    </button>
+                    <div class="project-content">
+                        <span class="project-category">Engenharia e Indústria</span>
+                        <h3>Instalação de Sistema Industrial</h3>
+                        <p>Prestação de serviços de engenharia e soluções industriais, incluindo instalação, manutenção e optimização de sistemas técnicos e equipamentos industriais. Neste projeto foi executada a instalação e integração de sistemas industriais, com organização do layout operacional, verificação de compatibilidade técnica e arranque assistido para garantir segurança, estabilidade e desempenho contínuo.</p>
+                        <ul class="project-meta">
+                            <li><strong>Cliente:</strong> unidade industrial de produção</li>
+                            <li><strong>Resultado:</strong> sistema instalado com maior fiabilidade operacional</li>
+                        </ul>
+                    </div>
+                </article>
+
+                <article class="project-card" data-category="engenharia-industria">
+                    <button class="project-media js-open-lightbox" type="button" aria-label="Abrir projeto Manutenção de Equipamentos Técnicos em galeria">
+                        <img src="images/engenharia2.jpg" alt="Manutenção de equipamentos técnicos industriais">
+                        <span class="project-zoom"><i class="fas fa-search-plus"></i></span>
+                    </button>
+                    <div class="project-content">
+                        <span class="project-category">Engenharia e Indústria</span>
+                        <h3>Manutenção de Equipamentos Técnicos</h3>
+                        <p>Intervenção técnica preventiva e corretiva em equipamentos industriais, com diagnóstico funcional, revisão de componentes, testes de desempenho e ajuste fino dos sistemas. O trabalho foi orientado para reduzir paragens não planeadas, prolongar a vida útil dos equipamentos e melhorar a continuidade operacional da instalação.</p>
+                        <ul class="project-meta">
+                            <li><strong>Cliente:</strong> área técnica de operação industrial</li>
+                            <li><strong>Resultado:</strong> redução de falhas e melhoria do rendimento técnico</li>
+                        </ul>
+                    </div>
+                </article>
+
+                <article class="project-card" data-category="engenharia-industria">
+                    <button class="project-media js-open-lightbox" type="button" aria-label="Abrir projeto Montagem de Infraestruturas Industriais em galeria">
+                        <img src="images/engenharia3.jpg" alt="Montagem de infraestruturas industriais e sistemas técnicos">
+                        <span class="project-zoom"><i class="fas fa-search-plus"></i></span>
+                    </button>
+                    <div class="project-content">
+                        <span class="project-category">Engenharia e Indústria</span>
+                        <h3>Montagem de Infraestruturas Industriais</h3>
+                        <p>Execução da montagem de conjuntos mecânicos e infraestruturas industriais, com preparação da área técnica, alinhamento de componentes, fixação estrutural e validação funcional dos equipamentos. A intervenção permitiu organizar o ambiente produtivo e preparar a operação para expansão com segurança e eficiência.</p>
+                        <ul class="project-meta">
+                            <li><strong>Cliente:</strong> instalação industrial em fase de expansão</li>
+                            <li><strong>Resultado:</strong> infraestrutura montada e pronta para operação assistida</li>
+                        </ul>
+                    </div>
+                </article>
+
+                <article class="project-card" data-category="engenharia-industria">
+                    <button class="project-media js-open-lightbox" type="button" aria-label="Abrir projeto Inspeção e Optimização de Sistemas em galeria">
+                        <img src="images/engenharia4.jpg" alt="Inspeção e optimização de sistemas industriais">
+                        <span class="project-zoom"><i class="fas fa-search-plus"></i></span>
+                    </button>
+                    <div class="project-content">
+                        <span class="project-category">Engenharia e Indústria</span>
+                        <h3>Inspeção e Optimização de Sistemas</h3>
+                        <p>Levantamento técnico em campo com inspeção de infraestruturas, verificação de conformidade, análise de pontos críticos e recomendação de melhorias operacionais. O serviço permitiu otimizar processos, reforçar a segurança dos sistemas e criar uma base sólida para futuras intervenções de manutenção e modernização.</p>
+                        <ul class="project-meta">
+                            <li><strong>Cliente:</strong> complexo técnico-industrial</li>
+                            <li><strong>Resultado:</strong> maior controlo operacional e plano de melhoria definido</li>
+                        </ul>
+                    </div>
+                </article>
+
+                <article class="project-card" data-category="avac">
+                    <button class="project-media js-open-lightbox" type="button" aria-label="Abrir projeto Instalação de AVAC para Escritório Executivo em galeria">
+                        <img src="images/avac-intro.jpg" alt="Sistema de climatização instalado em escritório executivo">
+                        <span class="project-zoom"><i class="fas fa-search-plus"></i></span>
+                    </button>
+                    <div class="project-content">
+                        <span class="project-category">AVAC</span>
+                        <h3>Instalação de AVAC para Escritório Executivo</h3>
+                        <p>Planeamento técnico, fornecimento e instalação de equipamento de ar condicionado para um espaço administrativo. A solução foi pensada para melhorar o conforto térmico, otimizar o consumo energético e garantir funcionamento contínuo.</p>
+                        <ul class="project-meta">
+                            <li><strong>Cliente:</strong> escritório administrativo</li>
+                            <li><strong>Resultado:</strong> ambiente climatizado com mais eficiência</li>
+                        </ul>
+                    </div>
+                </article>
+
+                <article class="project-card" data-category="avac">
+                    <button class="project-media js-open-lightbox" type="button" aria-label="Abrir projeto Manutenção Preventiva de Climatização em galeria">
+                        <img src="images/avac-hero.jpg" alt="Manutenção preventiva em equipamentos de ar condicionado">
+                        <span class="project-zoom"><i class="fas fa-search-plus"></i></span>
+                    </button>
+                    <div class="project-content">
+                        <span class="project-category">AVAC</span>
+                        <h3>Manutenção Preventiva de Climatização</h3>
+                        <p>Execução de limpeza técnica, revisão de componentes e diagnóstico funcional em unidades de climatização de uso contínuo. O serviço reduziu paragens inesperadas, elevou a durabilidade dos equipamentos e melhorou a qualidade do ar interno.</p>
+                        <ul class="project-meta">
+                            <li><strong>Cliente:</strong> unidade comercial</li>
+                            <li><strong>Resultado:</strong> menos falhas e melhor desempenho operacional</li>
+                        </ul>
+                    </div>
+                </article>
+
+                <article class="project-card" data-category="manutencao-tecnica">
+                    <button class="project-media js-open-lightbox" type="button" aria-label="Abrir projeto Reabilitação Preventiva de Infraestrutura em galeria">
+                        <img src="images/manutencao-intro.jpg" alt="Serviço técnico de manutenção preventiva em infraestrutura">
+                        <span class="project-zoom"><i class="fas fa-search-plus"></i></span>
+                    </button>
+                    <div class="project-content">
+                        <span class="project-category">Manutenção Técnica</span>
+                        <h3>Reabilitação Preventiva de Infraestrutura</h3>
+                        <p>Intervenção técnica em instalações com ajustes estruturais, revisão de acabamentos e melhoria de pontos críticos de operação. A atuação preventiva ajudou a preservar a infraestrutura, reduzir custos futuros e manter a imagem cuidada do espaço.</p>
+                        <ul class="project-meta">
+                            <li><strong>Cliente:</strong> edifício administrativo</li>
+                            <li><strong>Resultado:</strong> maior continuidade operacional</li>
+                        </ul>
+                    </div>
+                </article>
+
+                <article class="project-card" data-category="manutencao-tecnica">
+                    <button class="project-media js-open-lightbox" type="button" aria-label="Abrir projeto Correções Técnicas Multisserviço em galeria">
+                        <img src="images/manutencao-hero.jpg" alt="Equipa técnica em intervenção corretiva multisserviço">
+                        <span class="project-zoom"><i class="fas fa-search-plus"></i></span>
+                    </button>
+                    <div class="project-content">
+                        <span class="project-category">Manutenção Técnica</span>
+                        <h3>Correções Técnicas Multisserviço</h3>
+                        <p>Atendimento corretivo com ações integradas em pequenas reparações, revisão funcional e restabelecimento das condições de uso do espaço. O serviço permitiu rápida normalização das atividades e reforçou a segurança de utilização.</p>
+                        <ul class="project-meta">
+                            <li><strong>Cliente:</strong> espaço comercial e operacional</li>
+                            <li><strong>Resultado:</strong> resposta ágil e redução do tempo de indisponibilidade</li>
+                        </ul>
+                    </div>
+                </article>
+
+                <article class="project-card" data-category="seguranca-electronica">
+                    <button class="project-media js-open-lightbox" type="button" aria-label="Abrir projeto Implementação de CCTV e Gravação Centralizada em galeria">
+                        <img src="images/seguranca-intro.jpg" alt="Sistema de videovigilância CCTV com monitorização centralizada">
+                        <span class="project-zoom"><i class="fas fa-search-plus"></i></span>
+                    </button>
+                    <div class="project-content">
+                        <span class="project-category">Segurança Electrónica</span>
+                        <h3>Implementação de CCTV e Gravação Centralizada</h3>
+                        <p>Projeto de segurança com instalação de câmaras, pontos estratégicos de monitorização e configuração de gravação em NVR. A solução aumentou o controlo das áreas críticas e reforçou a capacidade de resposta perante ocorrências.</p>
+                        <ul class="project-meta">
+                            <li><strong>Cliente:</strong> armazém logístico</li>
+                            <li><strong>Resultado:</strong> vigilância contínua e maior rastreabilidade</li>
+                        </ul>
+                    </div>
+                </article>
+
+                <article class="project-card" data-category="seguranca-electronica">
+                    <button class="project-media js-open-lightbox" type="button" aria-label="Abrir projeto Controlo de Acesso e Alarmes em galeria">
+                        <img src="images/seguranca-hero.jpg" alt="Sistema de controlo de acesso e alarmes electrónicos">
+                        <span class="project-zoom"><i class="fas fa-search-plus"></i></span>
+                    </button>
+                    <div class="project-content">
+                        <span class="project-category">Segurança Electrónica</span>
+                        <h3>Controlo de Acesso e Alarmes</h3>
+                        <p>Instalação de solução integrada com controlo de acesso, sensores e alarme electrónico para gestão mais segura de entradas e saídas. O projeto fortaleceu os procedimentos internos e melhorou a proteção física da instalação.</p>
+                        <ul class="project-meta">
+                            <li><strong>Cliente:</strong> instalação institucional</li>
+                            <li><strong>Resultado:</strong> acesso mais controlado e ambiente mais seguro</li>
+                        </ul>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section class="portfolio-process-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Como estruturamos cada projeto</h2>
+                <p>Uma metodologia simples, clara e orientada para resultado.</p>
+            </div>
+            <div class="process-steps portfolio-process-steps">
+                <div class="process-step">
+                    <div class="step-number">1</div>
+                    <h3>Levantamento</h3>
+                    <p>Análise do contexto, necessidades do cliente e requisitos técnicos.</p>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">2</div>
+                    <h3>Planeamento</h3>
+                    <p>Definição da solução, materiais, cronograma e prioridades de execução.</p>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">3</div>
+                    <h3>Execução</h3>
+                    <p>Implementação com acompanhamento técnico, controlo de qualidade e organização.</p>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">4</div>
+                    <h3>Entrega</h3>
+                    <p>Validação final, apresentação do resultado e orientação para continuidade.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Precisa de apoio técnico para o seu próximo projeto industrial?</h2>
+                <p>Fale com a JP NOVO BRILHO e solicite uma proposta ajustada à sua necessidade.</p>
+                <div class="cta-buttons">
+                    <a href="contacto.html" class="btn btn-primary btn-lg">Solicitar Orçamento</a>
+                    <a href="sobre.html" class="btn btn-outline-white btn-lg">Conhecer a Empresa</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-col">
+                    <h3>JP NOVO BRILHO</h3>
+                    <p>Soluções integradas, eficientes e adaptadas às necessidades específicas de cada cliente.</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h4>Serviços</h4>
+                    <ul>
+                        <li><a href="engenharia-industria.html">Engenharia e Indústria</a></li>
+                        <li><a href="avac.html">AVAC</a></li>
+                        <li><a href="seguranca.html">Segurança Electrónica</a></li>
+                        <li><a href="manutencao.html">Manutenção Técnica</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Empresa</h4>
+                    <ul>
+                        <li><a href="sobre.html">Sobre</a></li>
+                        <li><a href="portfolio.html">Portfólio</a></li>
+                        <li><a href="contacto.html">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Contacto</h4>
+                    <ul class="contact-info">
+                        <li>
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Bairro Zango II, Paragem da Antena, <br>Rua nº4, Quadra E, CASA 17BD, Junto a Escola ADPP<br>Angola</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-phone"></i>
+                            <span>+244 956 582 555 / 928 310 160</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-envelope"></i>
+                            <span>geral@jpnovobrilho.com</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 JP NOVO BRILHO, LDA. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <div class="lightbox" id="portfolioLightbox" aria-hidden="true">
+        <div class="lightbox-overlay" data-close-lightbox></div>
+        <div class="lightbox-dialog" role="dialog" aria-modal="true" aria-labelledby="lightboxTitle">
+            <button class="lightbox-close" type="button" aria-label="Fechar galeria" data-close-lightbox>
+                <i class="fas fa-times"></i>
+            </button>
+            <button class="lightbox-nav lightbox-prev" type="button" aria-label="Projeto anterior">
+                <i class="fas fa-chevron-left"></i>
+            </button>
+            <div class="lightbox-content">
+                <div class="lightbox-image-wrap">
+                    <img id="lightboxImage" src="" alt="">
+                </div>
+                <div class="lightbox-details">
+                    <span class="lightbox-category" id="lightboxCategory"></span>
+                    <h3 id="lightboxTitle"></h3>
+                    <p id="lightboxDescription"></p>
+                    <div class="lightbox-counter" id="lightboxCounter"></div>
+                </div>
+            </div>
+            <button class="lightbox-nav lightbox-next" type="button" aria-label="Projeto seguinte">
+                <i class="fas fa-chevron-right"></i>
+            </button>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+    <script src="js/portfolio.js"></script>
+</body>
+</html>
