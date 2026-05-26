@@ -238,10 +238,10 @@ madil-global-services/
 
 ## 📄 Licença
 
-Este projeto foi desenvolvido exclusivamente para **MADIL GLOBAL SERVICES, LDA.**
+Este projeto foi desenvolvido exclusivamente para **JP NOVO BRILHO, LDA.**
 
 ---
 
 **Desenvolvido com ❤️ para o mercado angolano**
 
-Para suporte ou dúvidas sobre o website, entre em contacto através dos canais oficiais da MADIL Global Services.
+Para suporte ou dúvidas sobre o website, entre em contacto através dos canais oficiais da JP NOVO BRILHO.
