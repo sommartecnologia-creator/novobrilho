@@ -1,6 +1,6 @@
-# MADIL GLOBAL SERVICES - Website Corporativo
+# JP NOVO BRILHO - Website Corporativo
 
-Website corporativo profissional desenvolvido para a **MADIL GLOBAL SERVICES, LDA.**, empresa angolana especializada em serviços técnicos e gráficos.
+Website corporativo profissional desenvolvido para a **JP NOVO BRILHO, LDA.**, empresa angolana especializada em serviços técnicos e gráficos.
 
 ## 🌟 Sobre o Projeto
 
